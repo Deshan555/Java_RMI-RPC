@@ -9,7 +9,7 @@ import java.rmi.RemoteException;
 
 public class Client{
 
-    public static void main()
+    public static void main(String[] args)
     {
         if(System.getSecurityManager() == null)
         {

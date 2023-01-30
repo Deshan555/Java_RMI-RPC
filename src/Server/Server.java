@@ -66,7 +66,7 @@ public class Server extends UnicastRemoteObject implements Service
         return 0;
     }
 
-    public static void main()
+    public static void main(String[] args)
     {
         if(System.getSecurityManager() == null)
         {
